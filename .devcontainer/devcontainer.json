@@ -1,5 +1,5 @@
 {
-  "name": "Flutter + Android Emulator",
+  "name": "Basic Dev Container",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -14,11 +14,5 @@
         "ms-vscode.cpptools"            // for native debugging if needed
       ]
     }
-  },
-  "forwardPorts": [
-    8080, 8081,        // Flutter web and DevTools
-    5037,              // ADB
-    5554, 5555         // Emulator console & adb
-  ],
-  "postCreateCommand": "flutter doctor -v"
+  }
 }
